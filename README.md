@@ -12,7 +12,9 @@ Use this repository as example/template plugin.
 
 ```sh
 $ git clone https://github.com/rank1-gg/example-plugin.git
-$ git submodule update sdk
+$ git submodule init
+$ cd example-plugin
+$ git submodule update --remote --merge
 $ yarn or npm install
 ```
 
